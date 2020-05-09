@@ -25,7 +25,7 @@ public class PedidoDaoTest {
 
     @Test
     public void DeveriaSalvarPedidoMock(){
-        Pedido p = new Pedido("Alan Pery", "Tucunare", "3");
+        Pedido p = new Pedido("Alan Pery Viana", "Tucunare", "3");
         PedidoDao DaoFalso = Mockito.mock(PedidoDao.class);
         Mockito.when(DaoFalso.salvar(p)).thenReturn(true);
 
