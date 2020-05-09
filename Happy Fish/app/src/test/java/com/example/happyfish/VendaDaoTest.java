@@ -15,7 +15,7 @@ import static org.junit.Assert.assertTrue;
 public class VendaDaoTest {
     @Test
     public void testeSalvarVendaNoBancoDeDados(){
-        Venda v = new Venda("Victor Emanuel", 10);
+        Venda v = new Venda("Victor Emanuel candido de lima", 10);
         VendaDao vDao = new VendaDao();
 
         assertTrue(vDao.salvar(v));
